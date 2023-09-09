@@ -12,3 +12,4 @@ console.log(splitEmail);
 
 let hideEmail = splitEmail[0].slice(0,6) + '......@' + splitEmail[1];
 console.log(hideEmail);
+
