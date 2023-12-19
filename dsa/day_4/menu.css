@@ -1,0 +1,45 @@
+body{
+    border-style: dashed;
+border-color: chocolate;
+}
+h1{
+    background-color: red;
+    padding:0;
+    text-align: center;
+    color:black;
+    font-style: italic;
+    
+}
+#biryani{
+    padding: 0;
+    background-color: darkgreen;
+    color: aliceblue;
+    text-align: center;
+}
+#canai{
+    padding: 0;
+background-color: darkgreen;
+color: aliceblue;
+text-align: center;
+}
+#rice{
+    background-color: darkgreen;
+color: aliceblue;
+text-align: center;
+}
+.items1{
+    font-size:large;
+    color: slateblue;
+    font-style:oblique;
+
+}
+.items2{
+    font-size:large;
+    font-style:oblique;
+    color: slateblue;
+}
+.items3{
+    font-size:large;
+    font-style:oblique;
+    color: slateblue;
+}
