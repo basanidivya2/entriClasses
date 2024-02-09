@@ -48,3 +48,8 @@ alert ("welcome," + userAge + "@@")
 
 // let userInput = prompt("iam FS Developer");
 // alert("Hello, " + userInput + "!");
+
+ const Divya = {
+name: "Divya" , gender: "female", age: "24" , section: "batch17"
+ }
+ d
