@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+
+    <style>
+        .sub-btn{
+            padding:10px;
+            padding-left: 20px;
+            padding-right: 100px;
+            margin:50px;
+            margin-left: 600px;
+            margin-top: 40px;
+            width:10px;
+            background-color: red;
+            color:white;
+            font-weight: bold;
+            font-size: 15px;
+            border-radius:5px;
+            font-family:cursive;
+        }
+        .subscribed{
+            background-color: cadetblue;
+            color:black;
+        }
+        h1{
+            color:brown;
+            margin-left: 450px;
+            padding-top: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Example of Subscribe button</h1>
+    <button class="sub-btn" onclick="
+    subscribe()
+        ">Subscribe</button>
+        <script>
+            function subscribe() {
+
+            
+                const btnElement=document.querySelector('.sub-btn');
+                
+                if(btnElement.innerHTML==='Subscribe'){
+                    btnElement.innerHTML='Subscribed'
+                    btnElement.classList.add('subscribed')
+                }else{
+                    btnElement.innerHTML='Subscribe'
+                    btnElement.classList.remove('subscribed')
+                }
+
+
+            }
+        </script>
+</body>
+</html>
